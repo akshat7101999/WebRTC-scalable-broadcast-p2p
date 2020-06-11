@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- prevent extraneous favicon requests -->
+  <link rel="icon" href="data:,">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script> 
+  <script src="webrtc.js"></script>
+   
+</head>
+
+<body>
+
+  <div id="videos" class="videos">
+
+    <div id="localVideoContainer" class="videoContainer">
+      <video id="localVideo" autoplay muted></video>
+    </div>
+
+    <!-- Remote videos get appended here -->
+    
+  </div>
+  <div id = "GFG"></div> 
+
+  <script type="text/javascript">
+    start();
+  </script>
+
+</body>
+
+</html>

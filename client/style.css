@@ -1,0 +1,66 @@
+:root {
+    --rowHeight: 98vh;
+    --colWidth: 98vw;
+  }
+
+  body{
+      background: black;
+  }
+  
+  .videos { 
+  
+      display: grid;
+      grid-gap: 5px;
+      grid-auto-flow: row;
+      
+      grid-template-columns: repeat(auto-fit, minmax(var(--colWidth), 1fr)) ;
+  }
+  
+  .videoContainer {
+      position: relative;
+      overflow: hidden;
+      
+      min-height: var(--rowHeight);
+      min-width: var(--colWidth);
+      
+  }
+  
+  .videoContainer video {
+  
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: auto;
+      width: 100%;
+  }
+
+  .videoContainer1 {
+    position: relative;
+    overflow: hidden;
+    
+    min-height: var(--rowHeight);
+    min-width: var(--colWidth);
+    
+}
+
+.videoContainer1 video {
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+}
+  .videoLabel {
+      color: white;
+      font: bold 18px Arial, Sans-Serif;
+      line-height: 18px;
+      height: 18px;
+      
+      background: rgba(0, 0, 0, 0.55);
+      
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      padding: 4px;
+  }
