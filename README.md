@@ -38,8 +38,8 @@ IF EXPOSING APP TO INTERNET -- ngrok can be used for making our local webApp pub
  
 3) Run npm start in the terminal opened in PeerStream Directory
 
-4) Open the client with ngrok provided web address OR https://YourIP:8443 (in case of LAN). First Client to connect to server
-   is the Master. Every subsequent client is stream receiver and relayer.
+4) Open the client with ngrok provided web address OR https://YourIP:8443 (in case of LAN). **First Client to connect to server
+   **is the Master. Every subsequent client is stream receiver and relayer.**
 
 Check these slides for more information about the algorithm implemented.
 
